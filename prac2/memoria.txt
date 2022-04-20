@@ -1,0 +1,24 @@
+Ejercicio 1: Obtén una primera versión paralela del programa paralelizando las funciones que utiliza la función process: distance y swap. Llama a esta versión restore1.c.
+
+
+
+
+
+
+Ejercicio 2: Obten una segunda versión paralela paralelizando el cuerpo de la función process, dejando la función swap paralelizada (pero no la función distance). Observa que los bucles externos de la función process no se pueden paralelizar, con lo que deberás paralelizar los bucles internos. Llama a esta versión restore2.c.
+
+
+
+
+
+
+
+Ejercicio 3: En este ejercicio no se pide que modifiques ningún código ni que realices ninguna ejecución, sino que respondas de forma razonada a lo que se pregunta. 
+
+En la paralelización del bucle y2 de process, ¿crees que con alguna planificación se obtendría un mejor equilibrio de carga que con otra? ¿Sí/no? ¿Cuáles? ¿Por qué?
+
+¿Y en el bucle y de process? (como se ha dicho, ese bucle no se puede paralelizar, pero para este ejercicio teórico supongamos que sí se puede).
+
+
+
+
